@@ -1,0 +1,65 @@
+.land{
+	background-image: url("https://www.viaggisicuri.com/viaggiareinformati/wp-content/uploads/2018/07/Fotolia_168390423_Subscription_Monthly_M.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.nav { 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #337;
+    border-color: white;
+}
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+div.padre{
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px;
+    border-color: white;
+    flex-wrap: wrap;
+        }
+div.figlio{
+	background-color: white;
+	flex-wrap: wrap;
+	width: 30%;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover, a:active {
+	color: green;
+}
+body{
+	margin: 0;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 30%;
+    height: 5%;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 70%; 
+}
+.center {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
